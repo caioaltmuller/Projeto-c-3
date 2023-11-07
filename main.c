@@ -18,6 +18,28 @@ int main() {
             listarTarefas(lt); // Chama a função de listar as tarefas que já foram salvas
         } else if (opcao == 3) {
             deletarTarefa(&lt); // Deleta a tarefa selecionada pelo usuário
+        } else if (opcao == 4) {
+            salvarTarefas(&lt, "tarefas.txt"); // salva as tarefas em um arquivo.txt
+        } else if (opcao == 5) {
+            carregarTarefas(&lt, "tarefas.txt"); // carrega as tarefas de um arquivo.txt
+        } else if (opcao == 6) {
+            alterarTarefa(&lt); // Altera uma tarefa selecionada pelo usuário
+        } else if (opcao == 7) {
+            filtrarPorPrioridade(lt); // Filtra tarefas por prioridade
+        } else if (opcao == 8) {
+            filtrarPorCategoria(lt); // Filtra tarefas por categoria
+        } else if (opcao == 9) {
+            filtrarPorCategoriaComPrioridade(lt); // Filtra tarefas por categoria e prioridade
+        } else if (opcao == 10) {
+            filtrarPorPrioridadeECategoria(lt); // Filtra tarefas por prioridade e categoria
+        } else if (opcao == 11) {
+            exportarPorPrioridade(lt, "export_prioridade.txt"); // Exporta tarefas por prioridade
+        } else if (opcao == 12) {
+            exportarPorCategoria(lt, "export_categoria.txt"); // Exporta tarefas por categoria
+        } else if (opcao == 13) {
+            exportarPorPrioridadeECategoria(lt, "export_prioridade_categoria.txt"); // Exporta tarefas por prioridade e categoria
+        } else {
+            printf("Opcao nao disponivel.\n"); // Mostra ao usuário que não existe a opção além de 1 a 13, e retorna as opções de entrada
         }
     }
 
