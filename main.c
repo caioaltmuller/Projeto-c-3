@@ -2,7 +2,7 @@
 #include "Biblioteca.h"
 
 int main() {
-    ListaDeTarefas lt;
+    ListaDeTarefas lt; 
     lt.qtd = 0; // Inicializa a quantidade de tarefas como 0
 
     int opcao;  // Laço de repetição que dá as opções de escolha para o usuário
