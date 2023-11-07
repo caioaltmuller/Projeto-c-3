@@ -311,7 +311,7 @@ void exportarPorPrioridade(ListaDeTarefas lt, char *arquivo) {
     }
 
     fclose(arquivoTarefas);
-    printf("Tarefas exportadas com sucesso.\n");
+    printf("Tarefas exportadas com sucesso.\n"); 
 }
 
 void exportarPorCategoria(ListaDeTarefas lt, char *arquivo) {
