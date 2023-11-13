@@ -2,7 +2,7 @@
 //
 // Created by Caio on 07/11/2023. 
 //
-
+ 
 #ifndef UNTITLED1_BIBLIOTECA_H
 #define UNTITLED1_BIBLIOTECA_H
 
@@ -15,7 +15,7 @@ typedef struct { // Struct onde as tarefas estão armazenadas
 typedef struct { // Struct que armazena a quantidade de tarefas
     Tarefa tarefas[100];
     int qtd; 
-} ListaDeTarefas; // O máximo de tarefas possíveis é 100
+} ListaDeTarefas; // O máximo de tarefas possíveis é 100 
 
 // Funções para o código de tarefas
 int cadastrarNovaTarefa(ListaDeTarefas *lt);
