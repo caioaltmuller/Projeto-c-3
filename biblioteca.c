@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "Biblioteca.h"
+#include "Biblioteca.h" 
 
-int cadastrarTarefa(ListaDeTarefas *lt){ //função que é usada para cadastrar uma nova tarefa para o usuario
+int cadastrarNovaTarefa(ListaDeTarefas *lt){ //função que é usada para cadastrar uma nova tarefa para o usuario
     printf("Digite a prioridade da tarefa (0 a 10): "); // define a prioridade da tarefa
     scanf("%d", &lt->tarefas[lt->qtd].prioridade); // define a entrada de dados da prioridade da tarefa e salva na struct
     getchar(); // Limpa o buffer de entrada

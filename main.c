@@ -13,7 +13,7 @@ int main() {
         if (opcao == 0) { // se a opção digitada pelo usuário for "0", sai do laço de repetição e interrompe o código
             break; // Sai do loop
         } else if (opcao == 1) {
-            cadastrarTarefa(&lt); // Chama a função de cadastrar a tarefa localizada nas bibliotecas .c e .h
+            cadastrarNovaTarefa(&lt); // Chama a função de cadastrar a tarefa localizada nas bibliotecas .c e .h
         } else if (opcao == 2) {
             listarTarefas(lt); // Chama a função de listar as tarefas que já foram salvas
         } else if (opcao == 3) {
@@ -21,7 +21,7 @@ int main() {
         } else if (opcao == 4) {
             salvarTarefas(&lt, "tarefas.txt"); // salva as tarefas em um arquivo.txt
         } else if (opcao == 5) {
-            carregarTarefas(&lt, "tarefas.txt"); // carrega as tarefas de um arquivo.txt
+            carregarTarefas(&lt, "tarefas.txt"); // carrega as taref as de um arquivo.txt
         } else if (opcao == 6) {
             alterarTarefa(&lt); // Altera uma tarefa selecionada pelo usuário
         } else if (opcao == 7) {

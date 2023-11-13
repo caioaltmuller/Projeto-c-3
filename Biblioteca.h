@@ -18,7 +18,7 @@ typedef struct { // Struct que armazena a quantidade de tarefas
 } ListaDeTarefas; // O máximo de tarefas possíveis é 100
 
 // Funções para o código de tarefas
-int cadastrarTarefa(ListaDeTarefas *lt);
+int cadastrarNovaTarefa(ListaDeTarefas *lt);
 int deletarTarefa(ListaDeTarefas *lt);
 int listarTarefas(ListaDeTarefas lt);
 void alterarTarefa(ListaDeTarefas *lt);
